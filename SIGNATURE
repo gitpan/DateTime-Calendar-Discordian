@@ -1,0 +1,46 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.35.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 99112ea9503b6d3b697cc7aa6dd7bbfa637c3e78 Build.PL
+SHA1 01aa73a4980f6f2f03526e9042f2fd39ab52e28d Changes
+SHA1 dadcbffb2defe7ae27a071ff00360ba444edd3f4 LICENSE
+SHA1 88e14af96b3ecfea9af47e1ce318717287a314e2 MANIFEST
+SHA1 1ebd2f0a2008546d3fbad5a41ed189d946ed3c4e MANIFEST.SKIP
+SHA1 1d83672653898d4274be742d1b5a7648ae650174 META.yml
+SHA1 13e5361d77de5e7b828e21c9ab2aabd407ec7a74 Makefile.PL
+SHA1 e811f6f708f9e80090411871108662934d0c7fdb README
+SHA1 0265d061f9eab0265715a3098cc5ace9d782bc9a debian/changelog
+SHA1 9c6b057a2b9d96a4067a749ee3b3b0158d390cf1 debian/compat
+SHA1 1b41cea85e49572dede2d5e221d85c30966e9166 debian/control
+SHA1 e1d8c052b4dcf4477f17bb674104995b520ab3bf debian/copyright
+SHA1 c89700f8e4de72b6b2627a8548712d7c4c73369a debian/rules
+SHA1 b024717537446b77f4a392d0bd453c67ebec5676 lib/DateTime/Calendar/Discordian.pm
+SHA1 0f25a2d86f8f5eda690df8da9964f0b3c3bca15c t/0-signature.t
+SHA1 dd7a6936bc84e738f263bb96d119d37e7f9bd08f t/1-DateTime-Calendar-Discordian.t
+SHA1 4ee99698d8b4c82c43240bd5be4189958f005288 t/2-utc_rd_values.t
+SHA1 d1c0a4b3aeb0fad7b7b726269be6d6e4449871ef t/3-from_object.t
+SHA1 4a3d273218318a60f6d86ec9630cd2fbb8ade5d5 t/4-day_name.t
+SHA1 560bafd56f55fd37af847234ee73098c84f3ba04 t/5-day_abbr.t
+SHA1 d0c780c0002f84dc725c9cbb8b7583ea960dcdc2 t/6-cardinals.t
+SHA1 e1ae0339accc23f4786f9f8ee67b2c14d570fbc3 t/7-st_tibs.t
+SHA1 dea4c481f53125edfb3c72663a7bdf5eb7207747 t/8-strftime.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (GNU/Linux)
+
+iD8DBQFAy0RoogwpTl2CN6gRApLIAKDUCUy9WVL+2PvndYvo0SsSvmO2tACguZXe
+CgMYJ8uek5bsB4EjiaGOn2E=
+=snXD
+-----END PGP SIGNATURE-----
