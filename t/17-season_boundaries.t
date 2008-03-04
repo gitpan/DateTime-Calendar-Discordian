@@ -1,7 +1,11 @@
+#
+# $Id: /mirror/DateTime-Calendar-Discordian/tags/VERSION_0_9_5/t/17-season_boundaries.t 292 2008-02-27T05:14:07.051863Z jaldhar  $
+#
+use warnings;
+use strict;
 use Test::More tests => 30;
 use DateTime;
 use DateTime::Calendar::Discordian;
-
 
 my $dt;
 my $dtcd;

@@ -1,3 +1,8 @@
+#
+# $Id: /mirror/DateTime-Calendar-Discordian/tags/VERSION_0_9_5/t/15-st_tibs.t 292 2008-02-27T05:14:07.051863Z jaldhar  $
+#
+use warnings;
+use strict;
 use Test::More tests => 6;
 use DateTime;
 use DateTime::Calendar::Discordian;

@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.44.
+signed via the Module::Signature module, version 0.55.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,29 +14,33 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 99112ea9503b6d3b697cc7aa6dd7bbfa637c3e78 Build.PL
-SHA1 de9875813dda543f499eddf094b9d620d338717a Changes
-SHA1 acec5897694200781f74264bd6ba58a10e2b6f83 LICENSE
-SHA1 3a1d95788b30cf8b5ac023fbc2a55b18ccb9cc60 MANIFEST
+SHA1 628076d3797fd6efa08ebb250cdf07b7c4a1f7ed Build.PL
+SHA1 de5246a75823931337932ce4cb1cad777164e54d Changes
+SHA1 f7353eef543c00881d10bee200ac0120954f77e7 LICENSE
+SHA1 1a3afe1bac36fc0bf23255e8ae2c6f73b05ce74e MANIFEST
 SHA1 1ebd2f0a2008546d3fbad5a41ed189d946ed3c4e MANIFEST.SKIP
-SHA1 9e5d83d4606ad68de160d9380ace8a77f56deeab META.yml
+SHA1 b94e5d129696a871e3d0e2232b49024c4a49c97b META.yml
 SHA1 cfe66ec174c19794e61edca97f1dd7c6ec0909a2 Makefile.PL
-SHA1 645717934400aef3c714d1e19e6e32e2da5188f7 README
-SHA1 9d0518879494c5575234f8f7fa7a272745252b30 lib/DateTime/Calendar/Discordian.pm
-SHA1 0f25a2d86f8f5eda690df8da9964f0b3c3bca15c t/0-signature.t
-SHA1 dd7a6936bc84e738f263bb96d119d37e7f9bd08f t/1-DateTime-Calendar-Discordian.t
-SHA1 4ee99698d8b4c82c43240bd5be4189958f005288 t/2-utc_rd_values.t
-SHA1 d1c0a4b3aeb0fad7b7b726269be6d6e4449871ef t/3-from_object.t
-SHA1 4a3d273218318a60f6d86ec9630cd2fbb8ade5d5 t/4-day_name.t
-SHA1 560bafd56f55fd37af847234ee73098c84f3ba04 t/5-day_abbr.t
-SHA1 d0c780c0002f84dc725c9cbb8b7583ea960dcdc2 t/6-cardinals.t
-SHA1 a36b27f9a3a032cf70a057cc6c692513a13a0b25 t/7-st_tibs.t
-SHA1 ba45b4880486ac9bc511c9d159d4bf47d34ee7a9 t/8-strftime.t
-SHA1 6488a68db5ce41b06ed093848454182d17a26872 t/9-season_boundaries.t
+SHA1 4cfb92ee76f5662b95425d4bf945b8c913c9f465 README
+SHA1 b5be529f0eee04df5e2ac31bb3813e479b390fce lib/DateTime/Calendar/Discordian.pm
+SHA1 965fefbd46dcd058487d6266a3bc4d966167a64e t/00-signature.t
+SHA1 8b7fb66593a6d82d6d4c86079822edc22dabd4f8 t/01-DateTime-Calendar-Discordian.t
+SHA1 ce3f31cbc52f7863b4451ad020f42ac7deb6ea19 t/02-pod.t
+SHA1 de2babb74681d4f51a5b7f8d602a8d1bbf7254dd t/03-pod-coverage.t
+SHA1 e6e4957b87b45c3b5fd8a3d47bfc6431e7e96b51 t/04-perl-critic.t
+SHA1 55394fbde9ba4c561a4811b4761e0de43fba89b7 t/10-utc_rd_values.t
+SHA1 3bc1ae047f1031b32d300c93e3b23ddde26b59e9 t/11-from_object.t
+SHA1 9bc8b9a58cafeffe5ce160109de4d76a0f5c8e0e t/12-day_name.t
+SHA1 06f157d592a32d85e1b1df9ed77cb9616dcbb416 t/13-day_abbr.t
+SHA1 81510563ca41c69051a3bc2d2484fc4248e2c251 t/14-cardinals.t
+SHA1 f11222d821fc38cafd6be6695814d994bdebfc22 t/15-st_tibs.t
+SHA1 05c4cc86b51c644446d4ff1c80469f4716d62a42 t/16-strftime.t
+SHA1 4e481181edffac6d9dcc0b6b155e9d212cbf80e3 t/17-season_boundaries.t
+SHA1 d171416aca8c8f684661689f43ecca299064b2bc t/perlcriticrc
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.2.2 (GNU/Linux)
+Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFFAY2rSULVaThpSv8RAkwmAJ9GQz2rm+5b5QrU01UhAiY7ewZUhQCdFxll
-tAThjB+udH9Gj5W0qyBvzX4=
-=TX23
+iD8DBQFHzOxdIN9eM6kfjroRAldHAJ9dLBoBUwz2mJin6dwT6hhZTvjXzQCeIjGY
+ckFOQdwSI3zqvxR0LlsCpg0=
+=6rpp
 -----END PGP SIGNATURE-----

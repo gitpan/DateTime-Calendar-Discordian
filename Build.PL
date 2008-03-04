@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 #
-# $Id$
+# $Id: /mirror/DateTime-Calendar-Discordian/tags/VERSION_0_9_5/Build.PL 292 2008-02-27T05:14:07.051863Z jaldhar  $
 #
 
 use strict;
