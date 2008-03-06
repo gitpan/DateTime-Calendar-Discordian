@@ -14,33 +14,33 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 628076d3797fd6efa08ebb250cdf07b7c4a1f7ed Build.PL
-SHA1 de5246a75823931337932ce4cb1cad777164e54d Changes
+SHA1 a2a98464ae50e85bf92521a9f0d729732402deca Build.PL
+SHA1 aef5ed5a0257b21f6fa8fbdbafb709351365f096 Changes
 SHA1 f7353eef543c00881d10bee200ac0120954f77e7 LICENSE
 SHA1 1a3afe1bac36fc0bf23255e8ae2c6f73b05ce74e MANIFEST
 SHA1 1ebd2f0a2008546d3fbad5a41ed189d946ed3c4e MANIFEST.SKIP
-SHA1 b94e5d129696a871e3d0e2232b49024c4a49c97b META.yml
+SHA1 19c1e3a03adc306b943741d45d827be459365ae3 META.yml
 SHA1 cfe66ec174c19794e61edca97f1dd7c6ec0909a2 Makefile.PL
-SHA1 4cfb92ee76f5662b95425d4bf945b8c913c9f465 README
-SHA1 b5be529f0eee04df5e2ac31bb3813e479b390fce lib/DateTime/Calendar/Discordian.pm
-SHA1 965fefbd46dcd058487d6266a3bc4d966167a64e t/00-signature.t
-SHA1 8b7fb66593a6d82d6d4c86079822edc22dabd4f8 t/01-DateTime-Calendar-Discordian.t
-SHA1 ce3f31cbc52f7863b4451ad020f42ac7deb6ea19 t/02-pod.t
-SHA1 de2babb74681d4f51a5b7f8d602a8d1bbf7254dd t/03-pod-coverage.t
-SHA1 e6e4957b87b45c3b5fd8a3d47bfc6431e7e96b51 t/04-perl-critic.t
-SHA1 55394fbde9ba4c561a4811b4761e0de43fba89b7 t/10-utc_rd_values.t
-SHA1 3bc1ae047f1031b32d300c93e3b23ddde26b59e9 t/11-from_object.t
-SHA1 9bc8b9a58cafeffe5ce160109de4d76a0f5c8e0e t/12-day_name.t
-SHA1 06f157d592a32d85e1b1df9ed77cb9616dcbb416 t/13-day_abbr.t
-SHA1 81510563ca41c69051a3bc2d2484fc4248e2c251 t/14-cardinals.t
-SHA1 f11222d821fc38cafd6be6695814d994bdebfc22 t/15-st_tibs.t
-SHA1 05c4cc86b51c644446d4ff1c80469f4716d62a42 t/16-strftime.t
-SHA1 4e481181edffac6d9dcc0b6b155e9d212cbf80e3 t/17-season_boundaries.t
+SHA1 c52bd8d879282347bf05974dda32aab4a32b812b README
+SHA1 40419132a619c77de1b2117b8cd72f99a5f98702 lib/DateTime/Calendar/Discordian.pm
+SHA1 cd510d5b2dea9ddf9a543f8c53c47339ac2c1f6e t/00-signature.t
+SHA1 8b1eea3bf79f5ea8f58b3df7e1d3a5395d61393f t/01-DateTime-Calendar-Discordian.t
+SHA1 11a458a398fca037f888a40a0749a52317fb4568 t/02-pod.t
+SHA1 4bdf5032e769c69ac02b7ae59fff578141d57223 t/03-pod-coverage.t
+SHA1 3d662f86d05b9b54a4ef4734944433ebdd5a92ec t/04-perl-critic.t
+SHA1 e1196a8839973948891938888cef1229f4cd1e31 t/10-utc_rd_values.t
+SHA1 1f896830ee8d6c2ad4240e141ef844947a64ce56 t/11-from_object.t
+SHA1 366be8e21c9f34541920e51ca6ef8812d88ce64c t/12-day_name.t
+SHA1 b47081ff6ca562de37551e79663e8a683a92f99e t/13-day_abbr.t
+SHA1 7b71657f59347c3da163d469887e1ca3f621b68f t/14-cardinals.t
+SHA1 a7676c6871ca6b72d351da1b3e406a3532cb7689 t/15-st_tibs.t
+SHA1 7924ed10eba5542414868c2054fbbf2f9c1f0c38 t/16-strftime.t
+SHA1 4911d153f0f965e8a81162edb9ff43dba7624de5 t/17-season_boundaries.t
 SHA1 d171416aca8c8f684661689f43ecca299064b2bc t/perlcriticrc
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFHzOxdIN9eM6kfjroRAldHAJ9dLBoBUwz2mJin6dwT6hhZTvjXzQCeIjGY
-ckFOQdwSI3zqvxR0LlsCpg0=
-=6rpp
+iD8DBQFHz+fvIN9eM6kfjroRAgwKAJ4hN9dIbSNA/TntfGq+Am1Cfk2Y7ACg9FVe
+moC/b6gzd18Kqt382afqcxw=
+=bfrJ
 -----END PGP SIGNATURE-----

@@ -1,5 +1,5 @@
 #
-# $Id: /mirror/DateTime-Calendar-Discordian/tags/VERSION_0_9_5/t/04-perl-critic.t 296 2008-03-04T05:15:39.860335Z jaldhar  $
+# $Id: /mirror/DateTime-Calendar-Discordian/trunk/t/04-perl-critic.t 309 2008-03-06T12:37:15.886388Z jaldhar  $
 #
 use strict;
 use warnings;
@@ -11,7 +11,7 @@ if ( not $ENV{TEST_AUTHOR} ) {
     plan( skip_all => $msg );
 }
 
-eval { use Test::Perl::Critic (-profile => 't/perlcriticrc'); };
+eval " use Test::Perl::Critic (-profile => 't/perlcriticrc'); ";
 
 if ( $EVAL_ERROR ) {
     my $msg = 'Test::Perl::Critic required to criticise code';
