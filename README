@@ -1,4 +1,4 @@
-DateTime-Calendar-Discordian version 0.9.6
+DateTime-Calendar-Discordian version 0.9.7
 ==========================================
 
 This is a module that implements the Discordian calendar made popular
@@ -43,4 +43,4 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.3 or,
 at your option, any later version of Perl 5 you may have available.
 
-$Id: /mirror/DateTime-Calendar-Discordian/trunk/README 295 2008-03-04T05:13:29.700445Z jaldhar  $
+$Id$

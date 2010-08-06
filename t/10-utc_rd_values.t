@@ -1,5 +1,5 @@
 #
-# $Id: /mirror/DateTime-Calendar-Discordian/trunk/t/10-utc_rd_values.t 292 2008-02-27T05:14:07.051863Z jaldhar  $
+# $Id$
 #
 use warnings;
 use strict;

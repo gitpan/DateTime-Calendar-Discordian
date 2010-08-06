@@ -1,5 +1,5 @@
 #
-# $Id: /mirror/DateTime-Calendar-Discordian/trunk/t/04-perl-critic.t 309 2008-03-06T12:37:15.886388Z jaldhar  $
+# $Id$
 #
 use strict;
 use warnings;
