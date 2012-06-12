@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.63.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,33 +14,36 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 99112ea9503b6d3b697cc7aa6dd7bbfa637c3e78 Build.PL
-SHA1 2b2c854e531a0eef7f317160e2c3324238369042 Changes
+SHA1 dd854fe9b04883154885be5cd1066c918f2353c6 Build.PL
+SHA1 939d6f9fc56e1f3de09e591d6baf1b05206e33bd Changes
 SHA1 f7353eef543c00881d10bee200ac0120954f77e7 LICENSE
-SHA1 1a3afe1bac36fc0bf23255e8ae2c6f73b05ce74e MANIFEST
-SHA1 0c5272d3f39f671573b80d148a920c7d89dc8b8f MANIFEST.SKIP
-SHA1 ca427654e223177918e24b35345eb4d016bc0a58 META.yml
-SHA1 d31d86bc774483e02167f7ab755ea321c61b110e Makefile.PL
-SHA1 005d4fdb80d9c5fb530f16062fcdb4db836061fd README
-SHA1 257202a0dc4bc1b4953fc47a533fe611d390c8db lib/DateTime/Calendar/Discordian.pm
-SHA1 c2be7932f306b2b991f091a7103969b27a7285c4 t/00-signature.t
-SHA1 06b4d9247a45e15dca1799dbb0a7e52bbe627d29 t/01-DateTime-Calendar-Discordian.t
-SHA1 f0dbb65e96aacc64361b0fec898a2e6db473b6f6 t/02-pod.t
-SHA1 210185b9d23d6aa847932efe227375f63030a370 t/03-pod-coverage.t
-SHA1 f9bf7ea8f037567f90b487e8a09f10bcb02431b1 t/04-perl-critic.t
-SHA1 b573dcf2b74e3c3caa9e05ed5b96b0ceeaeb8429 t/10-utc_rd_values.t
-SHA1 ecd8c394602cb4ff1e8004a45c94544a842c8c46 t/11-from_object.t
-SHA1 9bc2906cf8488cb75f1c137a7a02c92d38450765 t/12-day_name.t
-SHA1 07c2b3c8fc8de9624c0c8ef20ebda9d63fea7714 t/13-day_abbr.t
-SHA1 3d888a6a15f2cae1528fc437dbd1346d2aa8c4f2 t/14-cardinals.t
-SHA1 f9ba3ba00a35118205c0bab27bb91fad1fdb165e t/15-st_tibs.t
-SHA1 d3e93219060d99d2327185671ddfe05b2377965c t/16-strftime.t
-SHA1 d1e31bd720bab100cd53e9600e6f14d1acc2ad01 t/17-season_boundaries.t
-SHA1 845e02d3c91f0818d7c55ffb824db6492b3b9d13 t/perlcriticrc
+SHA1 e05e070eea1c79aebcd3dcad0b0951f446206ead MANIFEST
+SHA1 4429c8ccea605354796ae97b6c6c34b12cfc44de MANIFEST.SKIP
+SHA1 2c012ebb812fee2c114259deeb3aa3cd0e257438 META.json
+SHA1 5f390a841d55aaf0863fcf253420379bb9041831 META.yml
+SHA1 754dfd5d89d7a04a4051c3dbddcb27aca3b3a8de Makefile.PL
+SHA1 c4c9bf97d33edc527d54284c1a397038504951ce README
+SHA1 50108b9f937325cea1fd3c5d7fd23a5469f58f3b lib/DateTime/Calendar/Discordian.pm
+SHA1 19f00534f20fc9ec1274396e4018326741d2566d t/00-signature.t
+SHA1 663c8a0cdef7e02166fb5c7b56a4bf4b36fdd3d3 t/01-load.t
+SHA1 05418222c3cb3ee63ba95a2f36e98ab655811d4d t/cardinals.t
+SHA1 edb17c43c476c1a7f02140d70d6ce4aa02ab8d01 t/clone.t
+SHA1 b880325c69563fcf6d4b7fa3767bf36dfd4473ef t/day_abbr.t
+SHA1 1855007a8ecfeb603ebf5d15b54c1be761796b1c t/day_name.t
+SHA1 38622ece7ef90f77efea1477c5f1f34ae61941df t/days_till_x.t
+SHA1 6730048bba31e48bac20f6d6b2e157d8e1c7e4ac t/from_object.t
+SHA1 33756b6bbd89d55784880a32c26bc37c02b5d270 t/holydays.t
+SHA1 ad38a16d4697f245d99a8e0345964fc165ce202f t/locale.t
+SHA1 30fe0508cf4e70e292ec21559037edcff66899e5 t/randexcl.t
+SHA1 ab2d5dafa9d8f764ced86c0f7f2fc3430faed83f t/season_boundaries.t
+SHA1 20421fbd7eb769b250c2e946c6c4646865a6a91e t/st_tibs.t
+SHA1 60476a709c14a7e2582e0a7db913b9fc1e4f4332 t/strftime.t
+SHA1 bbaa335d8906aa4c0e4003bf6e70bb99a19c9660 t/utc_rd_values.t
+SHA1 2032eb8f71c0d303ab1e0b762dbc5b6894114ff9 t/validation.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEARECAAYFAkxcWZQACgkQIN9eM6kfjrqxeACfTn7F09zo0/RimhrkXwrw7ONS
-njwAn3GVBnrc26QldOlqhhGwRWCqsocj
-=Gkdt
+iEYEARECAAYFAk/Xj2kACgkQIN9eM6kfjrpD+QCg2H8kDk45jg0ARUy+wkeD7TBw
+bMgAnjhkzXD+G/xeOiglE0nIZmrxotks
+=16R6
 -----END PGP SIGNATURE-----
